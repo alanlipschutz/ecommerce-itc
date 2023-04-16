@@ -1,0 +1,67 @@
+main {
+  min-height: 80vh;
+}
+.navbar-nav {
+  margin-left: 76%;
+}
+h1 {
+  font-size: 1.4rem;
+  padding: 0.1rem;
+}
+.link {
+  text-decoration: none;
+}
+/* .fa-shopping-cart {
+  margin-right:1rem;
+} */
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-item {
+  margin-right: 0;
+}
+.cart {
+  margin-right: 1.5rem;
+}
+strong {
+  text-decoration: none;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h2 {
+  color: #fff;
+}
+.carousel-inner {
+  margin-bottom: 2rem;
+  height: 280px;
+}
+.carousel-h2 {
+  font-size: 1rem;
+}
+.carousel img {
+  height: 220px;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel a {
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+}
